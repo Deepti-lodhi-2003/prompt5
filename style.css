@@ -133,16 +133,16 @@ max-width: 600px;
     header a img{
         height: 60px;
         width: 60px;
-        margin-left: 20px;
+        margin-left: 8px;
         margin-top: 5px;
     }  
     header nav{
         position: absolute;
-        right: 5%;
+        right: 4%;
         top: 25%;
     }
     header nav a {
-        margin-right: 10px;
+        margin-right: 5px;
     }
     .container{
         display: flex;
