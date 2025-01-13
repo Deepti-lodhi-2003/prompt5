@@ -27,6 +27,9 @@ header{
     display: flex;
     justify-content: space-between;
 }
+header i {
+    display: none;
+}
 header a img{
     height: 80px;
     width: 80px;
@@ -130,6 +133,12 @@ max-width: 600px;
 
 @media (max-width:600px)
 {
+    header i {
+        display: inline;
+        margin-right: 15px;
+        margin-top: 10px;
+        font-size: 25px;
+    }
     header a img{
         height: 60px;
         width: 60px;
@@ -137,13 +146,14 @@ max-width: 600px;
         margin-top: 5px;
     }  
     header nav{
-        position: absolute;
+        display: none;
+        /* position: absolute;
         right: 4%;
-        top: 25%;
+        top: 25%; */
     }
-    header nav a {
+    /* header nav a {
         margin-right: 5px;
-    }
+    } */
     .container{
         display: flex;
         flex-direction: column;
